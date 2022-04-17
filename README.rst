@@ -51,7 +51,14 @@ Installation
 
     pip install django-jet-reboot
 
-    pipenv install https://github.com/ngocnhan2003/django-jet-reboot/archive/master.zip
+or add Pipfile
+
+.. code:: python
+
+    [packages]
+    ...
+    django-jet-reboot = {file = "https://github.com/ngocnhan2003/django-jet-reboot/archive/refs/tags/1.3.1.zip"}
+
 
 
 * Add 'jet' application to the INSTALLED_APPS setting of your Django project settings.py file (note it should be before 'django.contrib.admin'):
